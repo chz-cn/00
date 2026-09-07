@@ -1,0 +1,28 @@
+{
+  "build": {
+    "content": [
+      {
+        "src": "src",
+        "files": [
+          "**/*.md",
+          "**/toc.yml"
+        ],
+        "dest": "."
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "postProcessors": [
+      "ExtractSearchIndex"
+    ],
+    "globalMetadata": {
+      "_appName": "hacking-monkey",
+      "_appTitle": "",
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
+}
