@@ -24,7 +24,7 @@ if ([string]::IsNullOrWhiteSpace($git_name)) {
 title: 00$uuid
 description:
 author: $git_name
-license: CC-BY 4.0
+license: CC BY 4.0
 create_at: $(Get-Date -Format "yyyy-MM-dd")
 ---
 

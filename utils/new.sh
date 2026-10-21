@@ -36,7 +36,7 @@ cat > "$path" <<EOF
 title: 00$uuid
 description:
 author: $git_name
-license: CC-BY 4.0
+license: CC BY 4.0
 create_at: $(date +"%Y-%m-%d")
 ---
 
